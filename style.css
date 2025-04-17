@@ -62,3 +62,65 @@
 #alter {
     font-size: 30px;
 }
+
+#linha1 {
+    background-color: rgb(0, 107, 194);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#linha2 {
+    background-color: rgb(103, 187, 255);
+}
+
+#linha3 {
+    background-color: rgb(103, 187, 255);
+}
+
+#linha4 {
+    background-color: rgb(103, 187, 255);
+}
+
+#linha5 {
+    background-color: rgb(103, 187, 255);
+}
+
+#linha6 {
+    background-color: rgb(103, 187, 255);
+}
+
+#linha7 {
+    background-color: rgb(103, 187, 255);
+}
+
+#linha8 {
+    background-color: rgb(103, 187, 255);
+}
+
+#tabela2head {
+    background-color: rgb(148, 55, 156);
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#tabela2body {
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+#tabela1body {
+    font-weight: bold;
+}
+
+#homepage {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#tabela_page_body {
+    background-color: gray;
+}
+
+#table1 {
+    border-color: rgb(0, 0, 0);
+}
