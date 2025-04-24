@@ -63,42 +63,64 @@
     font-size: 30px;
 }
 
-#linha1 {
-    background-color: rgb(0, 107, 194);
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #0084ff}
+  tr:nth-child(odd){background-color: #5aafff}
+  tr:hover{
+    background-color: black;
+    color: #0084ff;
+  }
+
+  th {
+    background-color: #2186c9;
+    color: white;
+  }
+
+/*#linha1 {
+    background-color: rgb(103, 187, 255);
     color: aliceblue;
     font-weight: bold;
 }
 
 #linha2 {
-    background-color: rgb(103, 187, 255);
+    background-color: aliceblue;
 }
 
 #linha3 {
-    background-color: rgb(103, 187, 255);
+    background-color: aliceblue;
 }
 
 #linha4 {
-    background-color: rgb(103, 187, 255);
+    background-color: aliceblue;
 }
 
 #linha5 {
-    background-color: rgb(103, 187, 255);
+    background-color: aliceblue;
 }
 
 #linha6 {
-    background-color: rgb(103, 187, 255);
+    background-color: aliceblue;
 }
 
 #linha7 {
-    background-color: rgb(103, 187, 255);
+    background-color: aliceblue;
 }
 
 #linha8 {
-    background-color: rgb(103, 187, 255);
+    background-color: aliceblue;
 }
 
 #tabela2head {
-    background-color: rgb(148, 55, 156);
+    background-color: rgb(103, 187, 255);
     font-weight: bold;
     color: aliceblue;
 }
@@ -112,15 +134,20 @@
     font-weight: bold;
 }
 
-#homepage {
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-}
-
 #tabela_page_body {
-    background-color: gray;
+    background-color: rgb(87, 62, 230);
 }
 
 #table1 {
-    border-color: rgb(0, 0, 0);
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-collapse: collapse;
 }
+
+#table2 {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-collapse: collapse;
+}/*
